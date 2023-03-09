@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        freeCodeCamp Survey Forms
+    </title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+        <label id="name-label"><input id="name" type="text" required placeholder="Enter your name" />Name</label>
+        <label id="email-label"><input id="email" type="email" required placeholder="Enter yor email" />Email</label>
+        <label id="number-label"> <input id="number" type="number" min="10" max="99" required
+                placeholder="Enter your age" />Age(optional)</label>
+        <form >Which option best describes your current role?<select id="dropdown" value="dropdown" required>
+                <option value="Select current role">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+ <label>
+<input type="radio" value="Definitely" name="group1"/>
+
+<input type="radio" value="Maybe" name="group1"/>
+
+
+<input type="checkbox" value="Front-end projects"/>
+<input type="checkbox" value="Back-end Projects"/>
+ </label>        
+        
+<label><textarea></textarea></label>
+
+<input type="submit" id="submit"/>
+
+
+
+
+<button id="submit" type="submit" required ></button>
+    </form>
+
+
+
+</body>
+
+</html>
